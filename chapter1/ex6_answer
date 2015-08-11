@@ -1,0 +1,10 @@
+Exercsise 1-6. Verify that the expression getchar() != EOF is 0 or 1.
+
+c = (getchar() != EOF)
+
+
+
+ANSWER
+
+If the character fetched by getchar() not equal to EOF,then expression (getchar()!= EOF) will be true(1).1 is assigned to c
+else if the character fetched by getchar() equal to EOF,then expression (getchar()!= EOF) will be false(0).0 is assigned to c

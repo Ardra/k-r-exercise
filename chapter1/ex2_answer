@@ -1,0 +1,47 @@
+#include<stdio.h>
+
+main()
+{
+	printf("hello, world\c\n");
+}
+
+mpiuser@user:~/GO STARTUP 2015/ex$ gcc -o ex2 ex2.c
+ex2.c: In function ‘main’:
+ex2.c:5:9: warning: unknown escape sequence: '\c' [enabled by default]
+mpiuser@user:~/GO STARTUP 2015/ex$ ./ex2
+hello, worldc
+mpiuser@user:~/GO STARTUP 2015/ex$ 
+
+
+
+
+
+
+#include<stdio.h>
+
+main()
+{
+	printf("\chello, world\n");
+}
+
+
+
+mpiuser@user:~/GO STARTUP 2015/ex$ gcc -o ex2 ex2.c
+ex2.c: In function ‘main’:
+ex2.c:5:9: warning: unknown escape sequence: '\c' [enabled by default]
+mpiuser@user:~/GO STARTUP 2015/ex$ ./ex2
+chello, world
+
+
+
+
+
+
+
+
+
+
+
+
+
+
