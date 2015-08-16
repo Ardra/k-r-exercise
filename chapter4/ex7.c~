@@ -1,0 +1,8 @@
+#include<stdio.h>
+void ungets(char s[])
+{
+  int len=strlen(s);
+  reverse(s);
+  while(len>0)
+    ungetch(s[--len]);
+}
